@@ -1,0 +1,47 @@
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Poppins, serif;
+        list-style-type: none;
+
+}
+
+.container-Catgry {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 10px;
+
+}
+
+.cont-heading {
+    padding: 14px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+.card-circle-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+    width: 90%;
+    margin: 0px 0px 14px 0px;
+    text-align: center;
+
+}
+
+.card-Round{
+    text-align: center;
+    height: 10vh;
+}
+
+.card-Round img{
+    height: 13vh !important;
+
+}
+
+

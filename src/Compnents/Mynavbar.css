@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container-custom{
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+    color: black;
+    /* padding: 10px 10px; */
+
+
+}
+#basic-nav-dropdown{
+
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}

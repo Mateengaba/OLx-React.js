@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .cont2{
+    display: flex;
+    background-color: rgb(248, 247, 247);
+align-items: center;
+justify-content: space-around;
+width: 100%;
+padding-left: 8px;
+}
+
+.cont2 img{
+
+    margin-top: 20px;
+
+}
+
+.location{
+    width: 20%;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.location Select{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: block;
+
+}
+.searchbar{
+width: 40%;
+margin-top: 20px;
+
+
+}
+.searchbar input{
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    margin:0px 40px 0px 40px;
+    
+}
+
+/* button */
+
+.btn{
+    width: 20%;
+    justify-content: space-between;
+margin-top: 5px;
+}
+
+
+.log{
+
+    padding: 8px 15px 8px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: larger;
+    border: none;
+    background: none;
+    font-weight: bold;
+
+ }
+
+.log a{
+    color: black;
+    
+}
+
+    .log a:hover{
+        cursor: pointer;
+    text-decoration: none;
+
+    }
+
+ .SELL{
+    padding: 0px 20px 0px 20px;
+    border-radius: 30px;
+    border: 5px solid;
+    color: black;
+font-size: larger;
+margin-top: 1px;
+border-color: rgb(213, 250, 5) rgb(6, 163, 168) rgb(213, 250, 5) rgb(42, 90, 153) ;
+ }
+ .SELL img{
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+
+ .SELL a{
+    text-decoration: none;
+    color:black;
+ }
+ .SELL:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color:rgb(89, 194, 89); */
+    transition: 0.5s ease;
+
+ }
+ @media only screen and (max-width : 770px){
+
+.cont2{
+/* display: inline; */
+justify-content: start;
+/* align-items: flex-start; */
+width: 100%;
+height: auto;
+}
+.log{
+   padding-left: 40px;
+}
+
+.SELL{
+    display: none;
+}
+
+.location{
+    padding-left: 40px;
+
+
+}
+
+
+ }
+
+ @media only screen and (max-width : 565px){
+
+    .cont2{
+    /* display: inline; */
+    justify-content: start;
+    /* align-items: flex-start; */
+    width: 100%;
+    height: auto;
+    }
+    .log{
+       padding-left: 40px;
+    }
+    
+    .SELL{
+        display: none;
+    }
+    
+    .location{
+display: none;    
+    
+    }
+    
+    
+     }
+    
